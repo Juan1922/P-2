@@ -1,0 +1,121 @@
+h6, aside#menu-movil nav a { font-family: 'Permanent Marker', cursive; }
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+body { margin: 0 !important; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0; }
+
+header{width: 1550px;
+  height:250px;
+  background-color: rgba(255, 174, 0, 0.685);
+  font-family: 'Fredoka One', cursive;
+   display:block;}
+header img{padding-left:60px;padding-top:-90px;}
+     header a{margin:10px;
+        top:15px;
+        font-size:2em;
+        position:relative;
+        left: 500px;
+        font-family: 'Fredoka One', cursive;border-radius:20px;
+        background-color: rgba(222, 184, 135, 0.568);
+        padding-left:5px;
+        padding-right:5px;}
+    header a:hover{background-color: rgba(110, 40, 10, 0.678);border-radius: 20px;}
+    header a:active{color:rgba(245, 124, 68, 0.993);}
+        main { width: 100%; height: auto; margin: 80px auto 0 auto; float: none; position: relative; }
+        
+
+        /* Video desde YouTube */
+        main section#video-youtube { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#video-youtube iframe { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; }
+        
+        
+        /* Mapa Google Maps */
+        main section#mapa-googlemaps { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#mapa-googlemaps iframe { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; }
+        
+        
+        /* Banner Video HTML5 */
+        main section#banner-video-html5 { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#banner-video-html5 video { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; background: #000; }
+        
+        
+        /* Banner Video HTML5 Loop Muted */
+        main section#banner-video-html5-loop-muted { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; overflow: hidden; }
+        
+        main section#banner-video-html5-loop-muted div#capa-contenido { width: 100%; height: 88vh; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 3; }
+        main section#banner-video-html5-loop-muted div#capa-contenido h1 { font-size: 2em; line-height: 1em; text-align: center; color: #fff; letter-spacing: 0.15em; padding: 41vh 0; }
+        
+        main section#banner-video-html5-loop-muted div#capa-color-video { width: 100%; height: 88vh; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 2; background: rgba(0, 0, 0, 0.7); }
+        
+        main section#banner-video-html5-loop-muted video { width: 100%; height: 88vh; margin: 0 auto; float: none; position: absolute; top: 0; left: 0; z-index: 1; display: block; background: #000; transform: scale(1.3); }
+        main section#banner-video-html5-loop-muted video source { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; }
+        
+        
+        /* Slide con Imágenes */
+        main section#slide-imagenes { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#slide-imagenes article.slick-banner { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; overflow: hidden; }
+        
+        main section#slide-imagenes article.slick-banner figure { width: 100%; height: 88vh; margin: 0; float: left; position: relative; }
+        main section#slide-imagenes article.slick-banner figure#slide-01 { background: url('../img/slide-01.jpg') no-repeat top center; background-size: cover; }
+        main section#slide-imagenes article.slick-banner figure#slide-02 { background: url('../img/slide-02.jpg') no-repeat top center; background-size: cover; }
+        main section#slide-imagenes article.slick-banner figure#slide-03 { background: url('../img/slide-03.jpg') no-repeat top center; background-size: cover; }
+        
+        main section#slide-imagenes article.slick-banner figure div.contenedor { width: 70%; height: auto; display: block; margin: 31vh auto; float: none; position: relative; }
+        main section#slide-imagenes article.slick-banner figure div.contenedor h3 { font-size: 2.5em; line-height: 1em; text-align: left; color: #fff; padding: 0 0 15px; }
+        main section#slide-imagenes article.slick-banner figure div.contenedor p { font-size: 1.1em; line-height: 1.3em; text-align: left; color: #fff; font-weight: 300; letter-spacing: 0.035em; padding: 0 0 15px; }
+        main section#slide-imagenes article.slick-banner figure div.contenedor a {     border: solid 1px #fff; width: 80px; height: auto; display: block; margin: 0; float: none; position: relative; font-size: 1.1em; line-height: 1em; text-align: center; color: #fff; padding: 13px 20px; letter-spacing: 0.035em; text-decoration: none; border-radius: 5px; background: #f50; transition: all 0.3s ease-in; }
+        main section#slide-imagenes article.slick-banner figure div.contenedor a:hover { color: #f50; background: #fff; transition: all 0.3s ease-in; }
+        
+        .slick-prev { left: 25px !important; z-index: 10 !important; }
+        .slick-next { right: 25px !important; z-index: 11 !important; }
+        
+        
+        
+        /* Galería de Imágenes con FancyApps */
+        main section#Galeria-de-imagenes { width: 250px; height: 250px; border-radius: 2px;}
+        main section#Galeria-de-imagenes article { width: 1100px; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#Galeria-de-imagenes article nav { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; padding: 70px 0; }
+        main section#Galeria-de-imagenes article nav a { width: 250px; height: 250px; margin: 11px; float: none; position: relative; display: inline-block; overflow: hidden; border-radius: 5px; transition: all 0.3s ease-in; }
+        main section#Galeria-de-imagenes article nav a img { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+        main section#Galeria-de-imagenes article nav a:hover { transition: all 0.3s ease-in; }
+        main section#Galeria-de-imagenes article nav a:hover img { transform: scale(1.03); filter: saturate(1.5); transition: all 0.3s ease-in; }
+        
+        
+        
+        /* Formulario de Contáctenos */
+        main section#formulario-contactenos { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#formulario-contactenos article { width: 600px; height: auto; margin: 0 auto; float: none; position: relative; }
+        main section#formulario-contactenos article form#formu-contacto { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; padding: 70px 0; }
+        
+        main section#formulario-contactenos article form#formu-contacto input#nombre,
+        main section#formulario-contactenos article form#formu-contacto input#correo,
+        main section#formulario-contactenos article form#formu-contacto input#telefono { width: 94%; height: auto; display: block; margin: 0 auto 10px; float: none; position: relative; border: none; background: #e2e2e2; border-radius: 5px; font-size: 1em; padding: 13px 3%; }
+        
+        main section#formulario-contactenos article form#formu-contacto select#asunto { width: 70%; height: auto; display: block; margin: 0 0 10px; float: none; border: none; background: #e2e2e2; border-radius: 5px; font-size: 1em; padding: 13px 3%; }
+        
+        
+        main section#formulario-contactenos article form#formu-contacto textarea#mensaje { width: 94%; height: 70px; display: block; margin: 0 auto 10px; float: none; position: relative; border: none; background: #e2e2e2; border-radius: 5px; font-size: 1em; padding: 13px 3%; }
+        
+        main section#formulario-contactenos article form#formu-contacto input#enviar { width: 150px; height: auto; display: block; margin: 0; float: none; position: relative; border: none; background: #f50; color: #fff; letter-spacing: 0.35em; border-radius: 5px; font-size: 1em; padding: 13px 3%; transition: all 0.3s ease-in; }
+        main section#formulario-contactenos article form#formu-contacto input#enviar:hover { background: #333; cursor: pointer; transition: all 0.3s ease-in; }
+        
+        main section#formulario-contactenos article form#formu-contacto input#nombre:focus,
+        main section#formulario-contactenos article form#formu-contacto input#correo:focus,
+        main section#formulario-contactenos article form#formu-contacto input#telefono:focus,
+        main section#formulario-contactenos article form#formu-contacto textarea#mensaje:focus { outline: none; background: #333; color: #fff; transition: all 0.3s ease-in; }
+
+
+
+        footer { width: 100%; height: 200px; margin: 0; float: none; position: relative; background: url('../img/footer_bg.png') no-repeat top center #333; background-size: cover; }
+       
+p em{color:  rgb(255, 255, 255) ;
+padding-left: 47%;}
+aside{display: block;}
+aside#whatsapp { width: 45px; height: 45px; display: block; margin: 0; float: none; position: fixed; bottom: 50px; right: 15px; z-index: 99998; }
+aside#whatsapp a { width: 100%; height: auto; display: block; margin: 0; float: none; position: relative; background: #00bb2d; color: #fff; font-size: 1.5em; text-align: center; padding: 6px 0; border-radius: 50%; transition: all 0.3s ease-in; }
+aside#whatsapp a:hover { transition: all 0.3s ease-in; background: #00771c ; }
+                    
